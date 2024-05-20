@@ -1,0 +1,227 @@
+@charset "utf-8";
+@media screen and (max-width:640px){
+    body{
+        color: #271a35;
+        font-size: 0.85em;
+    }
+    .hidden-sp{
+        display: none;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    section, article, aside, hgroup, header, footer, main, nav, figure {
+        display: block;
+    }
+    img {
+        display: block;
+        outline: none;
+    }
+    a {
+        color: #271a35;
+        text-decoration: none;
+    }
+    ul, ol {
+        list-style-type: none;
+    }
+    body {
+        font-size: 16px;
+        color: #271a35;
+        font-family: "メイリオ", Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka, "MS Pゴシック", "MS PGothic", ans-serif;
+        background-color: #f4efd6;
+        line-height: normal;
+    }
+    .kaisei-opti-regular {
+        font-family: "Kaisei Opti", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+    div{
+        box-sizing: border-box;
+    }
+    #header{
+        width: 200px;
+        padding: 20px 0 20px 10px;
+    }
+    #logo a img{
+        width: 250px;
+        margin: 5px 0 0 10px;
+    }
+    .navbar-collapse{
+        position: absolute;
+        top: 90px;
+        left: 0;
+        z-index: 100;
+        width: 100%;
+        background: #c5e0d2;
+        display: none;
+    }
+    .navbar-collapse li {
+        margin: 0 10px;
+        font-size: 14px;
+      }
+         
+    .navbar-collapse li a{
+        display: block;
+        padding: 15px 0;
+        text-decoration: none;
+        border-top: 1px solid #90ccae;
+     }
+    #menu-input{
+        display: none;
+    }
+    #menu-icon{
+        width: 54px;
+        height: 42px;
+        position: absolute;
+        top: 26px;
+        right: 10px;
+        background-image: url(../images/hbg_menu.png);
+        background-size: 80%;
+        background-repeat: no-repeat;
+    }
+    #menu-input:checked~.navbar-collapse{
+        display: block;
+    }
+    #mainPhoto{
+        position: relative;
+        background-image: url("../../images/firstview.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 250px;
+        background-position: 50% 5px;
+        height: 250px;
+    }
+    main{
+        clear: both;
+    }
+    #mainPhoto img{
+        position: absolute;
+        width: 260px;
+        top: 60px;
+        left: 60px;
+    }
+    #menu{
+        padding-top: 26px;
+        background-color: #c5e0d2;  
+    }
+    #menu h2{
+        text-align: center;
+        text-shadow: 3px 3px 5px #5a5a5a;
+    }
+    .bx-wrapper{
+        background-color: #c5e0d2;
+        margin: 0px auto;
+        border: none !important;
+        box-shadow: none !important;
+    }
+    .bx-wrapper img {
+        display: block;
+        margin: 0px auto;
+    }
+    #reserveDiv{
+        display: block;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    #reserve3{
+        color: #f4efd6; 
+        padding: 27px 20px 37px 20px;
+        border-radius: 20px;
+        background:linear-gradient(70deg,#d22220,#d0a393);
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+    #reserve3 span{
+        display: block;
+        text-align: center;
+        font-size: 20px;
+        font-family: "メイリオ", Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka, "MS Pゴシック", "MS PGothic", ans-serif;
+    }
+    #news{
+        padding-top: 26px;
+        padding-bottom: 40px;
+        background-color: #c5e0d2;
+        font-weight: bold;
+    }
+    #news h2{
+        text-align: center;
+        text-shadow: 3px 3px 5px #5a5a5a;
+    }
+    #newsdate_sp{
+        display: flex;
+        justify-content: center;
+    }
+    #newsdate_sp li{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #newsContent_sp{
+        margin-left: 20px;
+        text-decoration: underline;
+    }
+    #access{
+        padding-top: 26px;
+        padding-bottom: 50px;
+        font-weight: bold;
+        margin: auto;
+    }
+    #access h2{
+        text-align: center;
+        text-shadow: 3px 3px 5px #5a5a5a;
+        margin-bottom: 20px;
+    }
+    #adress{
+        width: 300px;
+        margin: 0 auto 10px auto;
+    }
+    iframe{
+        display: block;
+        width: 280px;
+        height: 260px;
+        margin: auto;
+    }
+    #sns{
+        width: 145px;
+        margin:10px auto 37px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    #x{
+        padding-top: 4px;
+    }
+    footer{
+        padding-top: 26px;
+        background-color: #c5e0d2;
+        overflow: hidden;
+    }
+    #logo2 a img{
+        width: 250px;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+    #footerInner ul{
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+        margin-bottom: 11px;
+    }
+    #footerInner ul li{
+        margin-left: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #footerInner ul li:nth-child(1){
+        margin-left: 0px;
+    }
+    small{
+        display: block;
+        width: 250px;
+        margin: 0 auto 20px auto;
+        font-size: 9px;
+     }
+}
